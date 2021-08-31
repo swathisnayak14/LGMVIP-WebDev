@@ -4,8 +4,9 @@
     box-sizing: border-box;
     font-family: "Bona Nova", serif;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
     -webkit-touch-callout: none;
+    scroll-behavior: smooth;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -16,7 +17,11 @@
   html {
     font-size: 62.5%;
   }
-  
+  ::-webkit-scrollbar{
+      width: 0rem;
+  }
+
+
   @media (max-width: 2560px) {
     html {
       font-size: 65%;
