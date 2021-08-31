@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bona Nova", serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  @media (max-width: 2560px) {
+    html {
+      font-size: 65%;
+    }
+  }
+  
+  @media (max-width: 1600px) {
+    html {
+      font-size: 65%;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 43%;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    html {
+      font-size: 25%;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    html {
+      font-size: 25%;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    html {
+      font-size: 21.5%;
+    }
+  }
+
+  .container {
+    position:relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("./images/bg.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  header{
+      padding: 0rem 30rem;
+  }
+
+  .nav {
+    position:fixed;
+    top: 3rem;
+    right: 20rem;
+    width: 40%;
+    float: right;
+    list-style: none;
+    display: flex;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .nav li{
+      width: 25rem;
+      height: 5rem;
+      line-height: 5rem;
+      text-align: center;
+      /* float: left; */
+      font-size: 1.5rem;
+      display: inline-block;
+      color: #fff;
+  }
+
+  .zippy{
+      position: relative;
+      text-decoration: none;
+      color: #fff;
+      font-size: 3rem;
+      padding: 4rem 0;
+      width: 30rem;
+  }
+
+  .text{
+      position: relative;
+      padding: 8rem 30rem;
+      color: #fff;
+      height: 40rem;
+  }
+
+  .text h2{
+      font-size: 5rem;
+      width: 55rem;
+  }
+
+  .text p{
+      font-size: 3rem;
+      width: 50rem;
+      opacity: 0.6;
+      margin-top: 1rem;
+  }
+
+  .text .btn2{
+      position: relative;
+      font-size: 1.5rem;
+      padding: 1rem;
+      text-decoration: none;
+      border: .1rem solid #5f4578;
+      display: inline-block;
+      margin-top: 3rem;
+      background: #5f4578;
+      color: #fff;
+      font-weight: bolder;
+      border-radius: 0.3rem;
+  }
+
+  .text .btn1{
+    position: relative;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    border: .1rem solid #ffdf72;
+    display: inline-block;
+    margin-top: 3rem;
+    background: #ffdf72;
+    border-radius: 0.3rem;
+    color: #5f4578;
+    font-weight: bolder;
+}
+
+
