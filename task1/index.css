@@ -79,7 +79,7 @@
   }
 
   .nav {
-    position:fixed;
+    position:absolute;
     top: 3rem;
     right: 20rem;
     width: 40%;
@@ -159,4 +159,59 @@
     font-weight: bolder;
 }
 
+.welcome{
+  position: relative;
+  height: 70rem;
+  padding: 0 10rem;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  /* width: 50rem; */
+  /* place-items: center; */
+}
 
+.welcome .heading{
+  position: absolute;
+  font-size: 4rem;
+  font-weight: bolder;
+  height: fit-content;
+}
+
+.welcome_para{
+  position: absolute;
+  margin-top: 7rem;
+  height: 30rem;
+  width: 80rem;
+  display: flex;
+}
+
+.welcome_para .heading1{
+ 
+  font-size: 3rem;
+  width: 40rem;
+  margin-top: 2rem;
+  margin-left: 10rem;
+  opacity: .6;
+}
+
+#umbrellaicon{
+  position: absolute;
+  right: 0;
+  top: 2rem;
+  font-size: 20rem;
+}
+
+
+.projects{
+  position: relative;
+  height: 70rem;
+  padding: 0 1rem;
+  justify-content: center;
+  display: flex;
+
+}
+
+.pheading{
+  font-size: 3rem;
+  font-weight: bolder;
+}
