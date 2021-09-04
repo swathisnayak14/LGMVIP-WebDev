@@ -161,18 +161,19 @@
 
 .welcome{
   position: relative;
-  height: 70rem;
+  height: 40rem;
   padding: 0 10rem;
   padding-top: 5rem;
   display: flex;
   justify-content: center;
   /* width: 50rem; */
   /* place-items: center; */
+  overflow: hidden;
 }
 
 .welcome .heading{
   position: absolute;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bolder;
   height: fit-content;
 }
@@ -201,17 +202,236 @@
   font-size: 20rem;
 }
 
-
-.projects{
-  position: relative;
-  height: 70rem;
-  padding: 0 1rem;
-  justify-content: center;
+.card_sec{
+  position:relative;
+  height: 45rem;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: auto;
+}
+
+.welcome_card{
+  position: absolute;
+  top:0;
+  height: 40rem;
+  width: 100vw;
+  /* padding: 0 50rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.welcomeicon{
+  position: relative;
+  height:40rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2rem;
+}
+
+.welcomeicon h2{
+  position: absolute;
+  top: 11rem;
+  font-size: 2rem;
+}
+
+#bell{
+  position: absolute;
+  top: 2rem;
+  padding: 2rem;
+  border: 1px solid #5f4578;
+  border-radius: 50%;
+  font-size: 2rem;
+  background: #5f4578;
+  color: white;
+}
+
+.card_para{
+  position: absolute;
+  top: 16rem;
+  width: 15rem;
+  font-size: 1.6rem;
+  opacity: .6;
+  text-align: center;
+}
+
+.welcome_card a{
+  position: absolute;
+  top: 33rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: bolder;
+  background: #5f4578;
 
 }
 
-.pheading{
-  font-size: 3rem;
+.pro_sec{
+  position:relative;
+  height: 80rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: auto;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.proheading{
+  position: absolute;
+  top: 4rem;
+  font-size: 5rem;
   font-weight: bolder;
+  height: fit-content;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.project_card{
+  position: absolute;
+  top: 15rem;
+  height: 90rem;
+  width: 100vw;
+  /* padding: 0 50rem; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  overflow: hidden;
+}
+
+.proicon{
+  position: relative;
+  height:65rem;
+  width: 40rem;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* margin: 2rem; */
+  background: #e0e0e0;
+}
+
+
+.proicon h2{
+  position: absolute;
+  top:44rem;
+  left: 3rem;
+  font-size: 2rem;
+}
+
+.pro_para{
+  position: absolute;
+  top: 48rem;
+  left: 3rem;
+  width: 20rem;
+  font-size: 1.6rem;
+  opacity: .6;
+  /* text-align: center; */
+}
+
+.project_card a{
+  position: absolute;
+  top: 57rem;
+  left: 3rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+  color: #111;
+  font-weight: bolder;
+  background: #ffffff;
+
+}
+
+
+.pric_sec{
+  position:relative;
+  height: 90rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: auto;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.pricheading{
+  position: absolute;
+  top: 4rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  height: fit-content;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.pric_card{
+  position: absolute;
+  top:10rem;
+  height: 50rem;
+  width: 100vw;
+  /* padding: 0 50rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.pricicon{
+  position: relative;
+  height:65rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.prictag{
+  position: absolute;
+  top: 3rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #111;
+  justify-content: center;
+}
+
+.pricicon h2{
+  position: absolute;
+  top:8rem;
+  left: 5rem;
+  font-size: 2rem;
+  opacity: .6;
+}
+
+.pric_para1{
+  position: absolute;
+  top: 15rem;
+  left: 5rem;
+  width: 20rem;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.pricicon a{
+  position: absolute;
+  top: 33rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: bolder;
+  background: #5f4578;
 }
