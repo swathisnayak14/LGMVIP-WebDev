@@ -354,7 +354,7 @@
 
 .pric_sec{
   position:relative;
-  height: 90rem;
+  height: 60rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -434,4 +434,199 @@
   color: white;
   font-weight: bolder;
   background: #5f4578;
+}
+
+.video {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #5f4a7b;
+}
+
+ .video .video-content {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.video .video-content p {
+  font-size: 4.5rem;
+  margin-bottom: 60rem;
+  color: #fefefe;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.video .video-content .looper {
+  position: absolute;
+  font-size: 10rem;
+  color: #fff;
+  background-color: #000;
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: marquee 10s linear infinite;
+  animation: marquee 10s linear infinite;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(-20%);
+  }
+  25% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  75% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(10%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(20%);
+  }
+}
+
+.zippyteam{
+  position: relative;
+  height: 48rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: auto;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.teamheading{
+  position: absolute;
+  top: 5rem;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.zippybox{
+  position: absolute;
+  top: 15rem;
+  height: 30rem;
+  width: 90rem;
+  display: flex;
+  overflow: hidden;
+  /* justify-content: center; */
+}
+
+.zippyprofile img{
+  position: absolute;
+  top: 0;
+  clip-path: circle(); 
+}
+
+.zippyprofile{
+  position: relative;
+  height:40rem;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  /* background: purple; */
+}
+
+  .zippyprofile h2{
+    position: absolute;
+    top: 22rem;
+    text-transform: uppercase;
+  }
+
+  .zippyprofile h3{
+    position:absolute;
+    top:25rem;
+    font-size: medium;
+    opacity: .6;
+  }
+
+  .zippyteam2{
+    position: relative;
+    height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: auto;
+    overflow: hidden;
+    justify-content: center;
+  }
+    
+  .zippybox2{
+    position: absolute;
+    top: 0rem;
+    height: 30rem;
+    width: 90rem;
+    display: flex;
+    overflow: hidden;
+    /* justify-content: center; */
+  }
+  
+  .zippyprofile2 img{
+    position: absolute;
+    top: 0;
+    clip-path: circle(); 
+  }
+  
+  .zippyprofile2{
+    position: relative;
+    height:40rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    /* background: purple; */
+  }
+  
+.zippyprofile2 h2{
+  position: absolute;
+  top: 22rem;
+  text-transform: uppercase;
+    }
+  
+    .zippyprofile2 h3{
+  position:absolute;
+  top:25rem;
+  font-size: medium;
+  opacity: .6;
+    }
+
+.life{
+  position: relative;
+  height: 70rem;
+  display: flex;
+  background:#e0e0e0 ;
 }
