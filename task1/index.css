@@ -574,7 +574,7 @@
 
   .zippyteam2{
     position: relative;
-    height: 50rem;
+    height: 40rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -615,18 +615,241 @@
   position: absolute;
   top: 22rem;
   text-transform: uppercase;
-    }
+  }
   
-    .zippyprofile2 h3{
+.zippyprofile2 h3{
   position:absolute;
   top:25rem;
   font-size: medium;
   opacity: .6;
-    }
+}
 
 .life{
   position: relative;
   height: 70rem;
   display: flex;
+  justify-content: center;
   background:#e0e0e0 ;
+}
+
+.lifeheading{
+  position: absolute;
+  top: 2rem;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.imageslider{
+  width: 50%;
+  height: 40rem;
+  background-image:url(./images/s1.jpg);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-size: 100% 100%;
+  box-shadow: .1rem .2rem 1rem .5rem black;
+  animation: slider 9s infinite linear;
+}
+
+@keyframes slider{
+  0%{
+    background-image:url(./images/s1.jpg);
+  }
+
+  20%{
+    background-image:url(./images/s2.jpg);
+  }
+  40%{
+    background-image:url(./images/s3.jpg);
+  }
+  75%{
+    background-image:url(./images/s4.jpg);
+  }
+}
+
+.newsletter{
+  position: relative;
+  height: 30rem;
+  width: 100vw;
+  background-image: url(./images/bg2.jpg);
+  background-size: 100% 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.news-content{
+  position: absolute;
+  top: 2rem;
+  height: 25rem;
+  width: 70rem;
+  display: flex;
+  justify-content: center;
+}
+
+.news-content h2{
+  position: absolute;
+  top: 1rem;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.news-sign{
+  position: absolute;
+  top: 6rem;
+  height: 15rem;
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  position: absolute;
+  top: 2rem;
+}
+
+input{
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  box-sizing: border-box;
+}
+
+input[type="text"]{
+  background:#fff;
+  width: 30rem;
+  height: 4rem;
+  border: none;
+  padding: 0 2rem;
+}
+
+input[type="submit"]{
+  background: #fee36c;
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  border: none;
+  color: #63487b;
+  font-weight: bolder;
+}
+
+input[type="submit"].second{
+  background: #63487b;
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  border: none;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.news-sign a{
+  position: absolute;
+  top: 4rem;
+  right: 10rem;
+  font-size: 1.5rem;
+  width: 10rem;
+  height: 4rem;
+  padding: 1rem;
+  text-decoration: none;
+  border: .1rem solid #63497a;
+  display: inline-block;
+  margin-top: 3rem;
+  background: #63497a;
+  color:#fff;
+  font-weight: bolder;
+  text-align: center;
+  place-items: center;
+
+}
+
+.blog_sec{
+  position:relative;
+  height: 80rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: auto;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.blogheading{
+  position: absolute;
+  top: 4rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  height: fit-content;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.blog_card{
+  position: absolute;
+  top: 15rem;
+  height: 90rem;
+  width: 100vw;
+  /* padding: 0 50rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.blogicon{
+  position: relative;
+  height:65rem;
+  width: 40rem;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.blogicon h2{
+  position: absolute;
+  top:23rem;
+  width:15rem ;
+  left: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.blogicon h3{
+  position: absolute;
+  top:28rem;
+  width:15rem ;
+  left: 4rem;
+  font-size: 1.5rem;
+  opacity: .6;
+  text-align: center;
+}
+
+.blog_para{
+  position: absolute;
+  top: 33rem;
+  left: 4rem;
+  width: 15rem;
+  font-size: 1.6rem;
+  opacity: .6;
+  text-align: center;
+}
+
+.blog_card a{
+  position: absolute;
+  top: 45rem;
+  left: 6rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+  color: #111;
+  font-weight: bolder;
+  background: #ececec;
+  justify-content: center;
+}
+
+.blog_card .yellow{
+  background:#fee26a;
 }
