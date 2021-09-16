@@ -965,7 +965,7 @@ input[type="email"]{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin: 2rem;
 }
 
@@ -976,6 +976,19 @@ input[type="email"]{
   font-weight: bolder;
   color: #111;
   justify-content: center;
+}
+
+.icons {
+  position: absolute;
+  top: 10rem;
+  height: auto;
+  width: auto;
+}
+
+.icons .fa{
+  color: #111;
+  font-size: 2rem;
+  margin-left: 1rem;
 }
 
 .footericon h2{
