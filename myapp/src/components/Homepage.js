@@ -5,7 +5,7 @@ function Homepage() {
   return (
     <>
       <Header />
-      <section className='mainContainer'>
+      <section className='outer_div'>
         <div className='container'>
           <h3>Welcome To</h3>
           <h1>LetsGrowMore</h1>

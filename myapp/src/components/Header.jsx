@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <div className='container'>
-        <Link to='/' className='company'>
+        <Link to='/' className='place'>
           LetsGrowMore
         </Link>
         <nav>

@@ -4,15 +4,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow-x: hidden;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: default;
 }
 
-.mainContainer {
+.outer_div {
   height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,13 +22,13 @@
   color: #fff;
 }
 
-.mainContainer h3 {
+.outer_div h3 {
   font-weight: 100;
   letter-spacing: 1px;
   font-family: 'Roboto Slab', serif;
 }
 
-.mainContainer h1 {
+.outer_div h1 {
   font-family: 'Roboto Slab', serif;
   font-weight: 600;
   font-size: 4rem;
@@ -42,7 +36,7 @@
 }
 
 @media (max-width: 600px) {
-  .mainContainer h1 {
+  .outer_div h1 {
     font-size: 2rem;
   }
 }
@@ -51,7 +45,7 @@
   padding: 3rem 0;
 }
 
-.users .card {
+.users .card_box {
   margin: 1rem 1.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,7 +64,7 @@
   transition: all 0.27s;
 }
 
-.users .cardImg {
+.users .card_boxImg {
   height: 10rem;
   width: 10rem;
   margin: 1rem 0;
@@ -80,7 +74,7 @@
   position: relative;
 }
 
-.users .cardImg img {
+.users .card_boxImg img {
   position: absolute;
   top: 0;
   left: 0;
@@ -90,17 +84,17 @@
      object-fit: cover;
 }
 
-.users .cardBody {
+.users .card_boxBody {
   padding: 1rem 0;
 }
 
-.users .cardBody h3 {
+.users .card_boxBody h3 {
   color: white;
   font-family: 'Roboto Slab', serif;
   text-align: center;
 }
 
-.users .cardBody p {
+.users .card_boxBody p {
   font-size: 1.2rem;
   color: #814686;
   margin: 0.7rem 0;
@@ -109,7 +103,7 @@
   transition: all 0.27s;
 }
 
-.users .card:hover {
+.users .card_box:hover {
   -webkit-box-shadow: 0 0 18px rgba(241, 192, 54, 0.596);
           box-shadow: 0 0 18px rgba(241, 192, 54, 0.596);
   -webkit-transform: scale(1.05);

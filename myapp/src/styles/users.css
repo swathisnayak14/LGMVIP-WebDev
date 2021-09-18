@@ -1,19 +1,13 @@
-::-webkit-scrollbar {
-  width: 0px;
-}
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow-x: hidden;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: default;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 #root {
@@ -59,7 +53,7 @@ header .container {
           align-items: center;
 }
 
-header .container .company {
+header .container .place {
   color: #fff;
   font-family: 'Roboto Slab', serif;
   font-size: 1.4rem;

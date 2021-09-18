@@ -2,11 +2,11 @@ function Card({ user }) {
   return (
     <>
       <div className='col-12 col-md-6 col-lg-4'>
-        <div className='card'>
-          <div className='cardImg'>
+        <div className='card_box'>
+          <div className='card_boxImg'>
             <img src={user?.avatar} />
           </div>
-          <div className='cardBody'>
+          <div className='card_boxBody'>
             <h3>
               {user?.first_name} {user?.last_name}
             </h3>
